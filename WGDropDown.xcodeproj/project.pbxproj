@@ -127,13 +127,13 @@
 			isa = PBXGroup;
 			children = (
 				D6677E7419781AFD00E3C114 /* WGDropDown */,
+				D6677E5719781A9300E3C114 /* Images.xcassets */,
 				D6677E5419781A9300E3C114 /* WGAppDelegate.h */,
 				D6677E5519781A9300E3C114 /* WGAppDelegate.m */,
-				D6677E5719781A9300E3C114 /* Images.xcassets */,
-				D6677E4C19781A9300E3C114 /* Supporting Files */,
 				D6677E831979032B00E3C114 /* WGViewController.h */,
 				D6677E841979032B00E3C114 /* WGViewController.m */,
 				D6677E851979032B00E3C114 /* WGViewController.xib */,
+				D6677E4C19781A9300E3C114 /* Supporting Files */,
 			);
 			path = WGDropDown;
 			sourceTree = "<group>";
@@ -484,6 +484,7 @@
 				D6677E7019781A9300E3C114 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6677E7119781A9300E3C114 /* Build configuration list for PBXNativeTarget "WGDropDownTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				D6677E7319781A9300E3C114 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

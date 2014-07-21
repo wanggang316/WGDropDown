@@ -80,7 +80,7 @@ static CGFloat const CellHeight = 40;   //cell行高
     return self;
 }
 
-
+// 点击标题按钮
 - (void)tapTitleBtn:(UIButton *)btn {
     if (isHidden) {
         [self showListView];
@@ -90,6 +90,7 @@ static CGFloat const CellHeight = 40;   //cell行高
 }
 
 
+// 显示下拉菜单
 - (void)showListView {
     
     isHidden = NO;
@@ -152,6 +153,7 @@ static CGFloat const CellHeight = 40;   //cell行高
 }
 
 
+// 隐藏下拉菜单
 - (void)hiddenListView {
     isHidden = YES;
     CGRect rect = self.itemTableView.frame;
@@ -175,9 +177,8 @@ static CGFloat const CellHeight = 40;   //cell行高
 }
 
 
+// 点击容器
 - (void)tapContainerView:(UIGestureRecognizer *)gesture {
-    
-    
     [self hiddenListView];
 }
 

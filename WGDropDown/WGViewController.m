@@ -40,14 +40,16 @@
     WGDropDownView *dropDownView = [[WGDropDownView alloc]initWithFrame:CGRectMake(0, 0, 100, 30) items:self.items delegate:self displayView:self.view isNavigationView:YES];
     self.navigationItem.titleView = dropDownView;
     
-    //general
-    WGDropDownView *dropDownView1 = [[WGDropDownView alloc]initWithFrame:CGRectMake(0, 64, 160, 30) items:self.items delegate:self displayView:self.view isNavigationView:NO];
-    [self.view addSubview:dropDownView1];
-    
     //rightBarButtonItem view
-    WGDropDownView *dropDownView2 = [[WGDropDownView alloc]initWithFrame:CGRectMake(0, 0, 60, 30) items:self.items delegate:self displayView:self.view isNavigationView:YES];
+    WGDropDownView *dropDownView2 = [[WGDropDownView alloc]initWithFrame:CGRectMake(0, 0, 70, 30) items:self.items delegate:self displayView:self.view isNavigationView:YES];
     UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithCustomView:dropDownView2];
     [self.navigationItem setRightBarButtonItem:backItem];
+    
+    //general
+    WGDropDownView *dropDownView1 = [[WGDropDownView alloc]initWithFrame:CGRectMake(0, 64, 120, 30) items:self.items delegate:self displayView:self.view isNavigationView:NO];
+    [self.view addSubview:dropDownView1];
+    
+    
     
 }
 
